@@ -6,4 +6,5 @@
     <small>fecha: {{ article.create_at }}</small>
     <p><strong>contenido:</strong>{{ article.content }}</p>
     <a href="{% url 'article-update' article.pk %}">Editar</a>
+    <a href="{% url 'article-delete' article.pk %}">Eliminar</a>
 {% endblock %}
