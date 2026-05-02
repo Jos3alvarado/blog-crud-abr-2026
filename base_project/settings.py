@@ -122,7 +122,7 @@ staticfiles_dirs = [
 ]
 
 LOGIN_REDIRECT_URL = 'article_list'
-
+LOGOUT_REDIRECT_URL = 'article_list'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
